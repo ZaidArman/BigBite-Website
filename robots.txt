@@ -1,0 +1,28 @@
+# ============================================================
+# robots.txt — BigBite Restaurant (bigbitefastfood.com)
+# Purpose: Tell search engine crawlers which pages to index
+#
+# ACTION: Replace bigbitefastfood.com with your actual live domain
+# ============================================================
+
+# Allow all well-behaved crawlers full access
+User-agent: *
+Allow: /
+
+# Block crawlers from any admin paths (add yours here if needed)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Google-specific directives
+User-agent: Googlebot
+Allow: /
+
+# Allow Google to crawl and index images for Google Images
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+# Sitemap location — REQUIRED for fast indexing
+Sitemap: https://www.bigbitefastfood.com/sitemap.xml
+
+# Crawl delay: uncomment only if you have server performance issues
+# Crawl-delay: 2

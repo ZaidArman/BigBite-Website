@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  sitemap.xml — BigBite Restaurant (bigbitefastfood.com)
+  
+  ACTION: Replace all bigbitefastfood.com with your live domain.
+  ACTION: Update <lastmod> dates after each major content change.
+  ACTION: Submit this file in Google Search Console under Sitemaps.
+
+  For a static HTML site like this (single page), the sitemap is simple.
+  If you later add separate pages (e.g., /menu, /about), add new <url> entries.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- =============================================
+       HOMEPAGE (Main page — highest priority)
+       ============================================= -->
+  <url>
+    <loc>https://www.bigbitefastfood.com/</loc>
+    <lastmod>2026-07-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- Key food images for Google Images indexing -->
+    <image:image>
+      <image:loc>https://www.bigbitefastfood.com/assets/images/popular-burger-big.png</image:loc>
+      <image:title>BigBite Special Burger — Best Seller in Hangu</image:title>
+      <image:caption>BigBite's signature burger — loaded with fresh ingredients and bold flavours</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.bigbitefastfood.com/assets/images/pizza_1.jpg</image:loc>
+      <image:title>BigBite Special Pizza — Hangu</image:title>
+      <image:caption>Fresh Pizza in 8 flavours at BigBite Restaurant, Hangu</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.bigbitefastfood.com/assets/images/shawarma.jpg</image:loc>
+      <image:title>BigBite Shawarma — Hangu</image:title>
+      <image:caption>Freshly made Shawarma at BigBite Restaurant, Hangu</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.bigbitefastfood.com/assets/images/hot_wings.png</image:loc>
+      <image:title>BigBite Hot Wings — Crispy Chicken, Hangu</image:title>
+      <image:caption>Crispy spicy hot wings — 5 or 10 pieces at BigBite Restaurant, Hangu</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.bigbitefastfood.com/assets/images/family_deal.png</image:loc>
+      <image:title>BigBite Family Deal — Pizza and Wings Combo, Hangu</image:title>
+      <image:caption>Best value family deals at BigBite Restaurant, Hangu</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.bigbitefastfood.com/assets/images/wow_deal.png</image:loc>
+      <image:title>BigBite WOW Deal — Ultimate Combo Meal, Hangu</image:title>
+      <image:caption>WOW Deal: Pizza, Burger, Shawarma, Wings and Drink at BigBite Restaurant</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://www.bigbitefastfood.com/assets/images/og-image.jpg</image:loc>
+      <image:title>BigBite Restaurant — Fast Food, Hangu</image:title>
+      <image:caption>BigBite Restaurant in Hangu — Burgers, Pizza, Shawarma and Family Deals</image:caption>
+    </image:image>
+  </url>
+
+</urlset>
